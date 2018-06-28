@@ -133,12 +133,12 @@ void PinPUR (uint8_t Pin)
 {
  switch (Pin/10)
  {
- case 0: set(PortA,Pin%10); break;
- case 1: set(PortB,Pin%10); break;
- case 2: set(PortC,Pin%10); break;
- case 3: set(PortD,Pin%10); break;
- case 4: set(PortE,Pin%10); break;
- case 5: set(PortF,Pin%10); break;
+ case 0: set(PUR(PortA),Pin%10); break;
+ case 1: set(PUR(PortB),Pin%10); break;
+ case 2: set(PUR(PortC),Pin%10); break;
+ case 3: set(PUR(PortD),Pin%10); break;
+ case 4: set(PUR(PortE),Pin%10); break;
+ case 5: set(PUR(PortF),Pin%10); break;
 
  }
 
