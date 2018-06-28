@@ -32,43 +32,43 @@
 
 //Registers Offset
 
-#define DATA        0x3FC
-#define DIR	  	    0x400
-#define DEN		    0x51C
+#define DATA        	0x3FC
+#define DIR		0x400
+#define DEN		0x51C
 #define LOCK		0x520
-#define CR		    0x524
+#define CR		0x524
 #define AFSEL		0x420
-#define PCTL	    0x52C
+#define PCTL	    	0x52C
 #define AMSEL		0x528
-#define PUR		    0x510
-#define IS          0x404
-#define IBE         0x408
-#define IEV         0x40C
-#define IM          0x410
-#define RIS         0x414
-#define ICR         0x41C
+#define PUR		0x510
+#define IS          	0x404
+#define IBE         	0x408
+#define IEV         	0x40C
+#define IM          	0x410
+#define RIS         	0x414
+#define ICR         	0x41C
 
 
 
 
 #define Func(P,F) 	        (*((uint32_t*) (P|F)))      //Macro that takes base adress of port and an offset for the register
-#define RCGCGPIO            (*((uint32_t*) 0x400FE608))
+#define RCGCGPIO            	(*((uint32_t*) 0x400FE608))
 
-#define GPIO_Unlock(P) 	    Func(P,LOCK)
-#define GPIO_CR(P)          Func(P,CR)
-#define GPIO_AFSEL(P) 	    Func(P,AFSEL)
-#define GPIO_PCTL(P) 	    Func(P,PCTL)
-#define GPIO_AMSEL(P) 	    Func(P,AMSEL)
-#define GPIO_DEN(P) 	    Func(P,DEN)
-#define GPIO_DIR(P)         Func(P,DIR)
-#define GPIO_DATA(P)        Func(P,DATA)
-#define GPIO_PUR(P)         Func(P,PUR)
-#define GPIO_IS(P)          Func(P,IS)
-#define GPIO_IBE(P)         Func(P,IBE)
-#define GPIO_IEV(P)         Func(P,IEV)
-#define GPIO_IM(P)          Func(P,IM)
-#define GPIO_RIS(P)         Func(P,RIS)
-#define GPIO_ICR(P)         Func(P,ICR)
+#define GPIO_Unlock(P) 	    	Func(P,LOCK)
+#define GPIO_CR(P)          	Func(P,CR)
+#define GPIO_AFSEL(P) 	    	Func(P,AFSEL)
+#define GPIO_PCTL(P) 	    	Func(P,PCTL)
+#define GPIO_AMSEL(P) 	    	Func(P,AMSEL)
+#define GPIO_DEN(P) 	    	Func(P,DEN)
+#define GPIO_DIR(P)         	Func(P,DIR)
+#define GPIO_DATA(P)        	Func(P,DATA)
+#define GPIO_PUR(P)         	Func(P,PUR)
+#define GPIO_IS(P)          	Func(P,IS)
+#define GPIO_IBE(P)         	Func(P,IBE)
+#define GPIO_IEV(P)         	Func(P,IEV)
+#define GPIO_IM(P)          	Func(P,IM)
+#define GPIO_RIS(P)         	Func(P,RIS)
+#define GPIO_ICR(P)         	Func(P,ICR)
 
 
 
@@ -127,4 +127,4 @@
 #define OUTPUT	 	1
 #define INPUT	   	0
 #define HIGH	 	1
-#define LOW         0
+#define LOW         	0
