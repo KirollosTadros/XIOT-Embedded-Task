@@ -30,6 +30,7 @@ activate_UART(UART1);				//Assume that the UART the uses Pin3 in sending data is
 activate_Timer(TIMER0);				//Activates Timer0
 TIMER0_enableInterrupt(1);			//Enable interrupt for timer0
 setPriority(TIMER0, 2);				//Sets Timer0 interrupt priority to 2
+TIMER0_Periodic(True);				//Makes the timer periodic
 TIMER0_wait100ms(30);				//Counts 3 Seconds then call the ISR of the timer 
 
 setBaudRate(UART1, 115200);			//Sets Buad rate of the UART
