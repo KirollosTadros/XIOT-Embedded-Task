@@ -13,7 +13,7 @@
 >* I have uploaded some Tiva C drivers that I have implemented these drivers are just example for the drivers that can be implemented having the functions used in the main function
 >* The drivers doesn't have all functions used, the drivers have just some functions as an example for implementing functions  
 >* This function is not for specific target it just a generic function expressing the concepts needed  
->* I have assumed that this function is called in main outside the while loop used  
+>* I have assumed that this function is called in main outside the super loop used  
   
 ## Issues
 >* The interrupt with the higher priority may interrupt the interrupt with lower priority so we can solve this by using common buffer in order not to make any conflict while writing on the serial monitor
