@@ -1,10 +1,10 @@
 # XIOT-Embedded-Task
 
 ## Hardware Setup
->Connect a led to Pin2  
->Connect push button to Pin1  
->Connect the Controller to the PC using USB (Serial Monitor)  
->Connect the temp Sensor to Pin4  
+>*Connect a led to Pin2  
+>*Connect push button to Pin1  
+>*Connect the Controller to the PC using USB (Serial Monitor)  
+>*Connect the temp Sensor to Pin4  
   
 ## Assumption
 >This is a generic function to toggle the led, I am not sure from the description whether we should toggle the led or just the button will just light the led on I have assumed that this is function used to toggle the led using the push button  
