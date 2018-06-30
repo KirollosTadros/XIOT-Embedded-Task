@@ -1,3 +1,3 @@
-# XIOT-Embedded-Task__
-__
+# XIOT-Embedded-Task
+
 ##Hardware Setup
